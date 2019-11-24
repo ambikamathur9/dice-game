@@ -3,8 +3,8 @@ var randomNumber1 = Math.floor(Math.random() * 6) + 1;
 var randomNumber2 = Math.floor(Math.random() * 6) + 1;
 
 //chooses correct dice image based on random number
-var randomImageForLeftDice = "images/dice" + randomNumber1 + ".png";
-var randomImageForRightDice = "images/dice" + randomNumber2 + ".png";
+var randomImageForLeftDice = "dice" + randomNumber1 + ".png";
+var randomImageForRightDice = "dice" + randomNumber2 + ".png";
 
 //changes source of each image from preset image source to new random image
 document.querySelector(".img1").setAttribute("src", randomImageForLeftDice);
